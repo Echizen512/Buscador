@@ -8,6 +8,7 @@ export default function App() {
   const [number, setNumber] = useState(); //null
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
+  console.log("Hola chiamo")
 
   return (
     <main className="bg-slate-200 h-screen flex flex-col gap-2">
